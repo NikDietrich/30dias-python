@@ -1,27 +1,15 @@
-
----
-
-## 📄 **README.md – Dia 03 – Sistema de Notas**
-
-```markdown
-# Dia 03 – Sistema de Notas
+# Dia 02 – Verificador de Maioridade
 
 ## 💡 Descrição
-Simulador de notas escolares que calcula a média de duas avaliações e informa o status do aluno:  
-- Aprovado  
-- Recuperação  
-- Reprovado  
-
-Valida notas fora do intervalo permitido (0 a 10) e trata entradas inválidas.
+Programa simples que solicita o nome e a idade do usuário e verifica se ele é maior de idade.  
+Inclui mensagens personalizadas e tratamento básico de erros.
 
 ## 📚 Conceitos aplicados
-- Cálculo de média simples
-- Validação de dados numéricos
-- Uso de `if`, `elif` e `else` com múltiplas condições
-- Uso de `try/except`
+- Uso de `if`, `elif` e `else`
+- Validação de entrada com `try/except`
 - Interpolação de strings (f-strings)
-- Formatação de números com `round()`
+- Condições compostas
 
 ## ▶️ Como executar
 ```bash
-python sistema_notas.py
+python verificador_idade.py
