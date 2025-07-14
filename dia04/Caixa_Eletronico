@@ -1,0 +1,28 @@
+print ('Bem vindo ao DietrichBank!')
+saldo =float(0.00)
+print (f'Saldo atual: R$ {saldo}')
+print ('Selecione a opção desejada dentre as abaixo:')
+while True:
+  print('1 - Depósito')
+  print('2 - Saque')1
+  print('3 - Extrato')
+  print('4 - Sair')
+
+  opcao = int(input('Opção: '))
+  try:
+    if opcao == 1:
+      deposito1=float(input('Digite o valor que deseja depositar:'))
+      saldo+=deposito1
+      print(f'Seu saldo atualizado é: R${round(saldo,2)}')
+    elif opcao == 2:
+      saque1=float(input('Digite o valor que deseja sacar: '))
+      saldo-=saque1
+      print(f'Saldo atualizado após o saque: R${round(saldo,2)}')
+    elif opcao == 3:
+      print(f'Seu saldo atualizado é: R${round(saldo,2)}')
+    elif opcao == 4:
+      print('Obrigado por usar nossos serviços, volte sempre!')
+      break
+
+  except ValueError:
+      print('Digite uma opção válida!')
