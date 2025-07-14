@@ -1,0 +1,20 @@
+## **README.md – Dia 03 – Sistema de Notas**
+
+## Descrição
+Simulador de notas escolares que calcula a média de duas avaliações e informa o status do aluno:  
+- Aprovado  
+- Recuperação  
+- Reprovado  
+
+Valida notas fora do intervalo permitido (0 a 10) e trata entradas inválidas.
+
+## Conceitos aplicados
+- Cálculo de média simples
+- Validação de dados numéricos
+- Uso de `if`, `elif` e `else` com múltiplas condições
+- Uso de `try/except`
+- Interpolação de strings (f-strings)
+- Formatação de números com `round()`
+
+## ▶️ Como executar
+python sistema_notas.py
