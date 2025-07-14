@@ -1,15 +1,15 @@
 # Dia 02 – Verificador de Maioridade
 
-## 💡 Descrição
+## Descrição
 Programa simples que solicita o nome e a idade do usuário e verifica se ele é maior de idade.  
 Inclui mensagens personalizadas e tratamento básico de erros.
 
-## 📚 Conceitos aplicados
+## Conceitos aplicados
 - Uso de `if`, `elif` e `else`
 - Validação de entrada com `try/except`
 - Interpolação de strings (f-strings)
 - Condições compostas
 
-## ▶️ Como executar
+## Como executar
 ```bash
 python verificador_idade.py
